@@ -6,7 +6,7 @@ Live Demo:https://book-store-beige-kappa.vercel.app/
 
 ## Why this project
 
-I wanted to see how the SymSpell-style fuzzy search technique I'd built for a product-search demo would hold up in a completely different context — a small catalog of novels and psychology books, styled nothing like my previous, more utilitarian demos.
+I wanted to see how the SymSpell-style fuzzy search technique I'd built for a product-search demo would hold up in a completely different context , a small catalog of novels and psychology books, styled nothing like my previous, more utilitarian demos.
 
 
 ## What it does
@@ -18,7 +18,7 @@ I wanted to see how the SymSpell-style fuzzy search technique I'd built for a pr
 
 ## Tech stack
 
-- Vanilla HTML/CSS/JavaScript — no framework, no build step
+- Vanilla HTML/CSS/JavaScript , no framework, no build step
 - Google Fonts (Lora + Inter)
 - No external services: the entire search runs client-side
 
@@ -28,11 +28,11 @@ I wanted to see how the SymSpell-style fuzzy search technique I'd built for a pr
 2. When the user types a query, the same deletion process runs on the query, and the resulting variants are looked up in that index to get a small set of candidates
 3. Real Levenshtein distance is computed only on that small candidate set, for ranking — not on the full catalog
 
-This is a simplified, educational version of the real SymSpell algorithm — the goal was to understand and demonstrate the core idea, not to ship a production-grade implementation.
+This is a simplified, educational version of the real SymSpell algorithm , the goal was to understand and demonstrate the core idea, not to ship a production-grade implementation.
 
 ## Running locally
 
-Just open \`index.html\` in a browser — no build step, no dependencies.
+Just open \`index.html\` in a browser , no build step, no dependencies.
 
 ## What I'd improve next
 
