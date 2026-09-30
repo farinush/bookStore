@@ -1,8 +1,8 @@
 # Marginalia — Fuzzy Book Search
 
-A minimalist, editorial-style landing page for a small book catalog, with typo-tolerant search that runs entirely in the browser — no backend, no external search API.
+A minimalist, editorial-style landing page for a small book catalog, with typo-tolerant search that runs entirely in the browser , no backend, no external search API.
 
-[Live Demo]:https://book-store-beige-kappa.vercel.app/
+Live Demo:https://book-store-beige-kappa.vercel.app/
 
 ## Why this project
 
