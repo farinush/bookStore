@@ -228,21 +228,20 @@ const App = () => {
 
   return (
     <div
-      className="min-h-screen bg-[#F7F6F2] font-bold text-[#f7f5f2]"
-      style={{ fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif" }}
+      className="min-h-screen p-3 font-sans bg-[#F7F6F2] font-bold text-[#2b241b]"
+      style={{ backgroundImage: "url('/images (15).png')" }}
     >
       <div
-        style={{ backgroundImage: "url('/images (15).png')" }}
-        className="max-w-3xl border border-gray-300  mx-auto px-6 py-16"
+        className="max-w-3xl border-3 border-gray-300 mt-[150px] bg-white/30  mx-auto px-6 py-16"
       >
         <header className="text-center mb-12">
           <div
             className="text-3xl font-semibold tracking-tight"
             style={{ fontFamily: "Georgia, 'Lora', serif" }}
           >
-            Margin<span className="text-[#dabbbb]">alia</span>
+            Margin<span className="text-[#4b0f0f]">alia</span>
           </div>
-          <p className="text-sm text-[#f5ead7] mt-2 flex flex-col">
+          <p className="text-sm text-[#1b160c] mt-2 flex flex-col">
             <span>a small catalog of novels &amp; psychology</span>
             <span> search even with a typo</span>
           </p>
